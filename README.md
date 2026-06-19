@@ -253,7 +253,11 @@ Create a workflow for onboarding a new software engineer. Include account creati
 
 <img width="1920" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/160f8c31-e965-44e0-88c4-58107f7d3ebb" />
 <img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/a628baef-fb3a-434a-9d53-7a426900f3dd" />
-<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/fef906de-ca3f-427b-8adc-09175f65c491" /><img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/5be91e81-2d8a-42be-8253-444b7174f1c0" />
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/fef906de-ca3f-427b-8adc-09175f65c491" />
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/5be91e81-2d8a-42be-8253-444b7174f1c0" />
 
 <img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/802de48a-32ba-416c-820b-dd8d79defa7a" />
+<img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/3b09be6d-373c-47eb-b5e9-5ecfc9681c2b" />
 
+# Autoagent:
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/46b034e8-9b52-4715-8dcc-11b3c04b5419" />
