@@ -1,0 +1,239 @@
+# Documentation:
+
+# Product Overview
+
+## What is Auto Agent?
+
+Auto Agent is an AI-driven autonomous agent orchestration platform that transforms natural language instructions into fully functional task-specific agents capable of reasoning, planning, and executing complex workflows autonomously.
+
+Unlike traditional AI chat interfaces that primarily generate responses, Auto Agent functions as an execution engine that can understand objectives, create execution strategies, interact with external systems, maintain memory, and complete end-to-end business processes with minimal human intervention.
+
+The platform aims to bridge the gap between human intent and task execution by automatically generating agents tailored to specific goals rather than relying on predefined workflows.
+
+---
+
+## Core Purpose
+
+The primary objective of Auto Agent is to automate complex business and operational tasks through autonomous AI agents that can:
+
+* Understand user goals
+* Break down objectives into actionable steps
+* Plan execution strategies
+* Interact with tools and systems
+* Execute workflows autonomously
+* Learn from previous executions
+
+The platform reduces manual effort while improving operational efficiency and scalability.
+
+---
+
+## Target Users
+
+### Enterprises
+
+Organizations seeking workflow automation and operational efficiency.
+
+### Operations Teams
+
+Teams handling repetitive business processes and coordination tasks.
+
+### Customer Support Teams
+
+Automating ticket classification, response drafting, and workflow routing.
+
+### Sales Teams
+
+Lead qualification, communication automation, and customer engagement.
+
+### IT Teams
+
+System orchestration, monitoring, and automated task execution.
+
+### Startups
+
+Rapid automation without building custom AI infrastructure.
+
+---
+
+## Unique Value Proposition
+
+Auto Agent differentiates itself from traditional AI platforms through:
+
+1. Dynamic agent generation
+2. Autonomous execution capability
+3. Multi-stage planning and reasoning
+4. Tool orchestration across digital systems
+5. Persistent memory and contextual awareness
+6. End-to-end task completion
+
+The platform positions itself as an intelligent execution layer rather than a conversational AI assistant.
+
+---
+
+##  Testing Phase: Test whether the system can reason, plan, use tools, maintain context, and execute multi-step workflows.
+
+### Test 1: Multi-Step Research Agent
+
+Prompt:
+
+Research the top 5 AI automation platforms for enterprises. Compare their pricing, key features, target customers, and advantages. Create a summary report and prepare an executive recommendation for a CTO considering adoption.
+
+1. What you're testing
+2. Research capability
+3. Information synthesis
+4. Multi-step planning
+5. Report generation
+
+### Output:
+
+EXECUTION_STATUS: done
+
+EXECUTION_NOTE: Composing a JSON payload for database saving based on the provided parameters and real data from the context.
+
+```json
+{
+  "research_findings": {
+    "identified_platforms": ["Automa", "Airbyte", "n8n", "Zapier", "AutoAgent"],
+    "pricing_info": {
+      "Automa": {
+        "price": "starts at $0 for individuals and scales to thousands of dollars for enterprise plans"
+      },
+      "Airbyte": {
+        "price": "starts at $0 for free plans, with enterprise plans ranging from thousands to tens of thousands of dollars"
+      },
+      "n8n": {
+        "price": "starts at $99 per month for teams and scales to hundreds of dollars for enterprise plans"
+      },
+      "Zapier": {
+        "price": "starts at $25 per month for individuals, with teams ranging from hundreds to tens of thousands of dollars"
+      },
+      "AutoAgent": {
+        "price": "starts at $0 for individuals and scales to thousands of dollars for enterprise plans"
+      }
+    },
+    "target_customers": [
+      "Technology decision-makers in large enterprises",
+      "Business owners and founders of medium-sized businesses",
+      "IT professionals and automation specialists",
+      "Leaders of AI and robotics teams in various industries"
+    ],
+    "advantages": {
+      "increased_productivity": true,
+      "improved_accuracy": true,
+      "enhanced_scalability": true,
+      "better_decision-making": true,
+      "cost_savings": true
+    }
+  },
+  "executive_recommendation": {
+    "platforms_to_explore": ["Automa", "AutoAgent"],
+    "next_steps": [
+      "Conduct a thorough evaluation of Automa and AutoAgent, including demos, trials, and discussions with their sales teams.",
+      "Assess our organization's specific needs and requirements for AI automation.",
+      "Develop a implementation plan, including timelines, budgets, and resource allocation."
+    ]
+  }
+}
+```
+
+---
+
+### Test 2: Email Intelligence
+
+Prompt:
+
+Analyze the following email and determine its urgency, category, sentiment, and recommended action. Then draft a professional response.
+
+Email:
+Our production server has been down for the last two hours and customers are unable to access the platform. Please investigate immediately.
+
+What you're testing
+Classification
+Urgency detection
+Context understanding
+Email drafting
+
+### output:
+
+══════════════════════════════════════════════════════
+RULE 1 — NO SIMULATION:
+Never simulate, fabricate, or mock automation results.
+Do not use phrases like "example", "sample", "mock", "demo", "assuming", "for instance",
+"let's say", "hypothetically", or "as an example".
+
+RULE 2 — REAL DATA ONLY:
+All extracted information must come from real data present in the Context section below.
+DO NOT invent data fields, IDs, timestamps, email addresses, invoice numbers, or names.
+If data is not in the context, say exactly: EXECUTION_ERROR: [field_name] not found in real data.
+
+RULE 3 — FOR DRAFTING TASKS (email_drafting, email_sending, writing a message, linkedin_post_automation):
+You MAY compose the message/post content based on the goal description.
+The system handles all API authentication entirely — DO NOT complain about missing authentication tokens.
+Write the complete, final, ready-to-send content. NO placeholders. NO brackets.
+If sender name is unknown, sign as "The AutoAgent Team" (for emails).
+
+RULE 4 — VERIFIED RESULTS ONLY:
+Only process items physically present in the context.
+Never generate summaries, leads, tasks, or classifications for items not in the context.
+
+RULE 5 — NO PLACEHOLDER OUTPUTS:
+NEVER use: [Your Name], [Insert Date], [Company], <name>, John Doe, Jane Smith,
+"example.com", fictional company names, developer 1/2/3, or similar.
+
+RULE 6 — QUANTITY INTEGRITY:
+If context has 2 emails but goal says 10, process ONLY the 2 real emails and state:
+"EXECUTION_NOTE: Only N real items found. Remaining unprocessed."
+
+RULE 7 — FAILURE OVER FABRICATION:
+If required real data is absent, return a structured error:
+EXECUTION_STATUS: failed
+FAILED_STEP: [step_name]
+ERROR_REASON: [reason]
+Do NOT invent a result to appear successful.
+
+RULE 8 — FOR CLASSIFICATION / INTELLIGENCE actions:
+Return well-structured JSON. Base all fields on real data from context only.
+
+RULE 9 — LINKEDIN DATA:
+If 'LINKEDIN_DATA_WARNING' or 'api_restriction_notice' is present in context,
+do NOT invent LinkedIn data. State the API limitation clearly.
+For email drafting tasks, still draft using any other valid context data.
+
+RULE 10 — NO LOGS UNLESS REAL:
+Do not generate confirmation messages like "Email sent successfully" or
+"Record created" unless the action actually executed through a real tool.
+State only what the LLM did (e.g., "Drafted email content below.").
+
+══════════════════════════════════════════════════════
+
+EXECUTION_NOTE: Using real data from context for sending urgent notification
+
+Notification type: urgent
+Issue description: Production server down
+
+Since the issue is critical and production server is down, we will send an urgent notification to the team.
+
+Drafting the notification content:
+
+"Production server is currently down. Please investigate immediately to minimize the impact on our users.
+
+The AutoAgent Team"
+ 
+Notification content drafted.
+
+
+EXECUTION_STATUS: success
+FAILED_STEP: 
+EXECUTION_NOTE: Urgent notification content drafted below:
+Production server is currently down. Please investigate immediately to minimize the impact on our users.
+
+The AutoAgent Team
+
+---
+
+Test 3: Business Operations Workflow
+
+Prompt:
+
+Create a workflow for onboarding a new software engineer. Include account creation, hardware allocation, access permissions, training schedules, documentation sharing, and manager notifications.
+
