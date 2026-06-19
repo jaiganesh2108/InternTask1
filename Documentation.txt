@@ -10,6 +10,8 @@ Unlike traditional AI chat interfaces that primarily generate responses, Auto Ag
 
 The platform aims to bridge the gap between human intent and task execution by automatically generating agents tailored to specific goals rather than relying on predefined workflows.
 
+![Profile Image](images/Screenshot (1).png)
+
 ---
 
 ## Core Purpose
