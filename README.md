@@ -10,7 +10,7 @@ Unlike traditional AI chat interfaces that primarily generate responses, Auto Ag
 
 The platform aims to bridge the gap between human intent and task execution by automatically generating agents tailored to specific goals rather than relying on predefined workflows.
 
-![Profile Image](images/Screenshot (1).png)
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/6f7e14f0-9998-4725-a736-33972f34e312" />
 
 ---
 
@@ -86,6 +86,9 @@ Research the top 5 AI automation platforms for enterprises. Compare their pricin
 4. Multi-step planning
 5. Report generation
 
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/f5e08d15-914b-4e37-9fab-9f4db992a494" />
+
+
 ### Output:
 
 EXECUTION_STATUS: done
@@ -154,6 +157,10 @@ Classification
 Urgency detection
 Context understanding
 Email drafting
+
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/3acd924c-570b-4f0e-b2f0-d369e3c039b9" />
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/daebacce-13e9-48fa-b7a2-c2a40e8e32ca" />
+
 
 ### output:
 
@@ -233,8 +240,20 @@ The AutoAgent Team
 
 ---
 
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/a97c2fce-d642-4907-97ec-62b67b58a281" />
+
+
 Test 3: Business Operations Workflow
 
 Prompt:
 
 Create a workflow for onboarding a new software engineer. Include account creation, hardware allocation, access permissions, training schedules, documentation sharing, and manager notifications.
+
+---
+
+<img width="1920" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/160f8c31-e965-44e0-88c4-58107f7d3ebb" />
+<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/a628baef-fb3a-434a-9d53-7a426900f3dd" />
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/fef906de-ca3f-427b-8adc-09175f65c491" /><img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/5be91e81-2d8a-42be-8253-444b7174f1c0" />
+
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/802de48a-32ba-416c-820b-dd8d79defa7a" />
+
